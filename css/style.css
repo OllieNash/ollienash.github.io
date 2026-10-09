@@ -365,7 +365,7 @@ a { color: var(--accent); }
 
 .grid { display: grid; gap: 20px; }
 
-.grid--interests { grid-template-columns: repeat(auto-fill, minmax(min(100%, 290px), 1fr)); }
+.grid--interests { grid-template-columns: repeat(auto-fill, minmax(min(100%, 400px), 1fr)); }
 .grid--projects  { grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr)); }
 
 .card {
