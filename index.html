@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- EDIT: put your name in the browser-tab title and the descriptions below -->
+  <title>[Your Name] · PhD Student</title>
+  <meta name="description" content="Oliver Nash, PhD student working on stochastic analysis, SPDEs, statistical inference and numerical methods.">
+  <meta property="og:title" content="[Your Name]">
+  <meta property="og:description" content="PhD student working on stochastic analysis, SPDEs, statistical inference and numerical methods.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ollienash.github.io/">
+  <meta name="theme-color" content="#0a0e1a">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <!-- Fonts: Source Serif 4 (headings) and Inter (body text) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,wght@0,500;0,600;0,700;1,500&display=swap">
+
+  <!-- KaTeX: renders LaTeX written between $...$ (inline) or $$...$$ (display) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Animated gradient-blob background (styled in css/style.css) -->
+  <div class="bg" aria-hidden="true">
+    <div class="blob blob--violet"></div>
+    <div class="blob blob--cyan"></div>
+    <div class="blob blob--indigo"></div>
+    <div class="blob blob--pink"></div>
+  </div>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <!-- EDIT: your name -->
+      <a class="nav__brand" href="#top">[Your Name]</a>
+      <nav aria-label="Sections">
+        <ul class="nav__links">
+          <li><a href="#research">Research</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#publications">Publications</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===================== INTRO ===================== -->
+    <section id="top" class="hero">
+      <div class="container hero__inner">
+        <div class="hero__photo">
+          <!-- To add your photo: save a square image as images/profile.jpg. Until then a placeholder is shown. -->
+          <img src="images/profile.jpg" alt="Photo of [Your Name]" width="180" height="180"
+               onerror="this.onerror=null; this.src='images/profile-placeholder.svg';">
+        </div>
+
+        <div class="hero__text">
+          <p class="hero__eyebrow">PhD Student</p>
+          <!-- EDIT: your name, department and institution -->
+          <h1 class="hero__name">[Your Name]</h1>
+          <p class="hero__affil">Department of Mathematics, Imperial College London</p>
+
+          <!-- EDIT: this bio is a draft, rewrite it in your own words -->
+          <p class="hero__bio">
+            I work where probability meets partial differential equations. My research centres on
+            stochastic partial differential equations: their analysis, their numerical simulation,
+            and how to draw statistical inferences about them from data.
+          </p>
+
+          <!-- EDIT: replace each [ ... ] with your own link. Delete a whole <li> ... </li> to remove a button. -->
+          <ul class="links">
+            <li>
+              <a class="pill" href="mailto:on125@ic.ac.uk">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+                <span>Email</span>
+              </a>
+            </li>
+            <li>
+              <a class="pill" href="[Google Scholar profile URL]">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5.242 13.769 0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+                <span>Google Scholar</span>
+              </a>
+            </li>
+            <li>
+              <a class="pill" href="[ORCID URL, e.g. https://orcid.org/0000-0000-0000-0000]">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="currentColor"/><text x="12" y="16.2" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#0a0e1a">iD</text></svg>
+                <span>ORCID</span>
+              </a>
+            </li>
+            <li>
+              <a class="pill" href="[arXiv author page URL]">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h8"/></svg>
+                <span>arXiv</span>
+              </a>
+            </li>
+            <li>
+              <a class="pill" href="[GitHub profile URL]">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                <span>GitHub</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== RESEARCH INTERESTS ===================== -->
+    <section id="research" class="section">
+      <div class="container">
+        <h2 class="section__title reveal">Research Interests</h2>
+        <p class="section__lead reveal">Randomness, differential equations, and the computation in between.</p>
+
+        <!-- Each interest is one <article class="card"> ... </article> block. The formula uses LaTeX between $ signs. -->
+        <div class="grid grid--interests">
+          <article class="card reveal">
+            <div class="card__formula">$dX_t = b(X_t)\,dt + \sigma(X_t)\,dW_t$</div>
+            <h3 class="card__title">Stochastic Analysis</h3>
+            <p class="card__text">Itô calculus, stochastic differential equations and the behaviour of processes driven by noise.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__formula">$\hat{\theta}_n \longrightarrow \theta$</div>
+            <h3 class="card__title">Statistical Inference</h3>
+            <p class="card__text">Estimating parameters and quantifying uncertainty in random models from discrete, noisy observations.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__formula">$\partial_t u = \Delta u + f(u)$</div>
+            <h3 class="card__title">Applied PDE Theory</h3>
+            <p class="card__text">Well-posedness, regularity and qualitative behaviour of partial differential equations arising in applications.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__formula">$u^{n+1} = u^n + \Delta t\, F(u^n)$</div>
+            <h3 class="card__title">Numerical Methods</h3>
+            <p class="card__text">Designing and analysing discretisation schemes: convergence, stability and computational cost.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__formula">$du = \Delta u\,dt + dW_t$</div>
+            <h3 class="card__title">SPDEs</h3>
+            <p class="card__text">Partial differential equations driven by noise, where analysis, probability and computation meet.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section__title reveal">Projects</h2>
+        <p class="section__lead reveal">Things I am building and working on.</p>
+
+        <div class="grid grid--projects">
+          <article class="card project reveal">
+            <div class="project__media">
+              <img src="images/field-of-streams.svg" alt="Sample paths of a stochastic differential equation flowing across the image">
+            </div>
+            <div class="project__body">
+              <h3 class="card__title">Field of Streams</h3>
+              <!-- EDIT: this description is a draft, add detail about your approach -->
+              <p class="card__text">
+                Simulation schemes for stochastic differential equations and stochastic PDEs:
+                methods for generating accurate sample paths of systems driven by noise.
+              </p>
+              <ul class="tags">
+                <li class="tag">SDEs</li>
+                <li class="tag">SPDEs</li>
+                <li class="tag">Numerical Simulation</li>
+              </ul>
+              <!-- EDIT: to show Code/Paper buttons, delete the two "DELETE THIS LINE" lines and add your URLs -->
+              <!-- DELETE THIS LINE
+              <div class="btn-row">
+                <a class="btn-sm" href="[code repository URL]">Code</a>
+                <a class="btn-sm" href="[paper or write-up URL]">Paper</a>
+              </div>
+              DELETE THIS LINE -->
+            </div>
+          </article>
+
+          <!-- TEMPLATE for a new project: copy everything between the ===== lines, paste it above this comment, and edit.
+          ================================================================
+          <article class="card project reveal">
+            <div class="project__body">
+              <h3 class="card__title">Project title</h3>
+              <p class="card__text">Two or three sentences about the project.</p>
+              <ul class="tags">
+                <li class="tag">Tag one</li>
+                <li class="tag">Tag two</li>
+              </ul>
+              <div class="btn-row">
+                <a class="btn-sm" href="https://...">Code</a>
+              </div>
+            </div>
+          </article>
+          ================================================================
+          -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PUBLICATIONS ===================== -->
+    <section id="publications" class="section">
+      <div class="container">
+        <h2 class="section__title reveal">Publications</h2>
+        <p class="section__lead reveal">Papers and preprints.</p>
+
+        <div class="pub-year reveal">
+          <h3 class="pub-year__label">2026</h3>
+
+          <!-- To add a paper: copy one <article class="card pub"> ... </article> block and edit it.
+               For a new year, copy the whole <div class="pub-year"> ... </div> block and put the newest year first. -->
+          <article class="card pub">
+            <h4 class="pub__title">SPDEBench: An Extensive Benchmark for Learning Stochastic PDEs</h4>
+            <p class="pub__authors">
+              Yuantu Zhu, Zheyan Li, Dai Shi, Luke Thompson, <strong>Oliver Nash</strong>,
+              Jose Miguel Lara Rangel, Siran Li, Bingguang Chen, Rongchan Zhu, Qi Meng, Hao Ni
+            </p>
+            <p class="pub__venue">Preprint · arXiv:2505.18511 [cs.LG]</p>
+            <div class="btn-row">
+              <a class="btn-sm" href="https://arxiv.org/abs/2505.18511">arXiv</a>
+              <a class="btn-sm" href="https://arxiv.org/pdf/2505.18511">PDF</a>
+              <!-- To add a Code button, remove the comment markers around the next line and add the URL -->
+              <!-- <a class="btn-sm" href="[code repository URL]">Code</a> -->
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <!-- EDIT: your name -->
+      <p>© <span id="year">2026</span> [Your Name] · Last updated October 2026</p>
+    </div>
+  </footer>
+</body>
+</html>
