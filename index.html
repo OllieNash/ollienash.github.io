@@ -6,9 +6,9 @@
 
   <!-- EDIT: put your name in the browser-tab title and the descriptions below -->
   <title>Oliver Nash · PhD Student</title>
-  <meta name="description" content="Oliver Nash, PhD student working on stochastic analysis, SPDEs, statistical inference and numerical methods.">
+  <meta name="description" content="Oliver Nash, PhD student working on Stochastic Analysis, Statistical Inference and Machine learning.">
   <meta property="og:title" content="Oliver Nash">
-  <meta property="og:description" content="PhD student working on stochastic analysis, SPDEs, statistical inference and numerical methods.">
+  <meta property="og:description" content="PhD student working on Stochastic Analysis, Statistical Inference and Machine learning.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ollienash.github.io/">
   <meta name="theme-color" content="#0a0e1a">
@@ -75,9 +75,8 @@
 
           <!-- EDIT: this bio is a draft, rewrite it in your own words -->
           <p class="hero__bio">
-            I work where probability meets partial differential equations. My research centres on
-            stochastic interacting particle systems: their analysis, their numerical simulation,
-            and how to draw statistical inferences about them from data. Currently funded by CCMI CDT. 
+             My primary research centres on stochastic interacting particle systems and their mean-field limits. In particular analysis, their numerical simulation,
+            and drawing statistical inferences about them from data. Side projects are focusing on ML-based systems for SPDE learning. Currently funded by CCMI CDT. 
           </p>
 
           <!-- EDIT: replace each [ ... ] with your own link. Delete a whole <li> ... </li> to remove a button. -->
@@ -120,7 +119,7 @@
         <!-- Each interest is one <article class="card"> ... </article> block. The formula uses LaTeX between $ signs. -->
         <div class="grid grid--interests">
           <article class="card reveal">
-            <div class="card__formula">$dX_t = b(X_t)\,dt + \sigma(X_t)\,dW_t$</div>
+            <div class="card__formula">$dX_t = b(X_t, \mu_t ; \theta_t)\,dt + \sigma(X_t, \mu_t ; \theta_t)\,dW_t$</div>
             <h3 class="card__title">Stochastic Analysis</h3>
             <p class="card__text">Itô calculus, stochastic differential equations and the behaviour of processes driven by noise.</p>
           </article>
@@ -128,7 +127,7 @@
           <article class="card reveal">
             <div class="card__formula">$\hat{\theta}_n \longrightarrow \theta$</div>
             <h3 class="card__title">Statistical Inference</h3>
-            <p class="card__text">Estimating parameters and quantifying uncertainty in random models from discrete, noisy observations.</p>
+            <p class="card__text">Estimating parameters, Asyptmotic statistics and quantifying uncertainty in random models from discrete, noisy observations.</p>
           </article>
 
           <article class="card reveal">
@@ -156,7 +155,7 @@
     <section id="projects" class="section">
       <div class="container">
         <h2 class="section__title reveal">Projects</h2>
-        <p class="section__lead reveal">Things I am building and working on.</p>
+        <p class="section__lead reveal">Fun things!.</p>
 
         <div class="grid grid--projects">
           <article class="card project reveal">
@@ -167,8 +166,8 @@
               <h3 class="card__title">Field of Streams</h3>
               <!-- EDIT: this description is a draft, add detail about your approach -->
               <p class="card__text">
-                Simulation schemes for stochastic differential equations and stochastic PDEs:
-                methods for generating accurate sample paths of systems driven by noise.
+                Simulation schemes for stochastic differential equations and stochastic PDEs. 
+                Methods for generating accurate sample paths of systems driven by noise with convergence checks.
               </p>
               <ul class="tags">
                 <li class="tag">SDEs</li>
@@ -190,7 +189,7 @@
             <div class="project__body">
               <h3 class="card__title">SPDEBench</h3>
               <p class="card__text">
-                The first unified benchmark for ML-based SPDE learning across regular and singular SPDEs:
+                The first unified benchmark for ML-based SPDE learning across regular and singular SPDEs. Includes
                 seven evaluation metrics for systematic assessments of model accuracy and robustness.
               </p>
               <ul class="tags">
