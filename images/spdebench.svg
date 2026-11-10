@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14163f"/>
+      <stop offset="1" stop-color="#0c3350"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.2" cy="0.15" r="0.85">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="260" fill="url(#bg)"/>
+  <rect width="800" height="260" fill="url(#glow)"/>
+
+  <g stroke-linecap="round" fill="none">
+    <path d="M0 64 C90 46, 165 84, 250 66 S410 44, 505 72 S675 98, 800 70" stroke="#a78bfa" stroke-width="2.4" stroke-opacity="0.85"/>
+    <path d="M0 102 C95 84, 170 124, 252 104 S410 82, 510 112 S675 138, 800 108" stroke="#93c5fd" stroke-width="2.1" stroke-opacity="0.82"/>
+    <path d="M0 140 C82 120, 168 164, 252 144 S416 124, 514 154 S676 176, 800 146" stroke="#5eead4" stroke-width="2.1" stroke-opacity="0.78"/>
+    <path d="M0 180 C90 158, 170 204, 258 184 S418 166, 516 196 S678 220, 800 186" stroke="#f0abfc" stroke-width="1.9" stroke-opacity="0.72"/>
+  </g>
+
+  <g fill="none" stroke="#c4b5fd" stroke-width="1" stroke-opacity="0.34">
+    <line x1="90" y1="36" x2="90" y2="226"/>
+    <line x1="190" y1="36" x2="190" y2="226"/>
+    <line x1="290" y1="36" x2="290" y2="226"/>
+    <line x1="390" y1="36" x2="390" y2="226"/>
+    <line x1="490" y1="36" x2="490" y2="226"/>
+    <line x1="590" y1="36" x2="590" y2="226"/>
+    <line x1="690" y1="36" x2="690" y2="226"/>
+
+    <line x1="40" y1="66" x2="760" y2="66"/>
+    <line x1="40" y1="108" x2="760" y2="108"/>
+    <line x1="40" y1="150" x2="760" y2="150"/>
+    <line x1="40" y1="192" x2="760" y2="192"/>
+  </g>
+
+  <g fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <text x="400" y="128" font-size="40" font-weight="700" letter-spacing="0.8">SPDEBench</text>
+    <text x="400" y="156" font-size="14" fill="#e2e8f0" opacity="0.92" letter-spacing="0.35">
+      Unified benchmark for regular and singular SPDE learning
+    </text>
+  </g>
+</svg>
